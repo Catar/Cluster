@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "Cluster",
-    type: .dynamic,
     platforms: [
         .iOS(.v8)
     ],
@@ -13,6 +12,7 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "Cluster",
+            type: .dynamic,
             targets: ["Cluster"]),
     ],
     dependencies: [
