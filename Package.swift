@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Cluster",
+    type: .dynamic,
     platforms: [
         .iOS(.v8)
     ],
